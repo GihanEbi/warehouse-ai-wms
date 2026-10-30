@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# test artifacts: keep screenshots/ and videos/, ignore transient output
+/artifacts/test-results*
+/artifacts/*-results
+/artifacts/report
+/artifacts/videos/.tmp
+/playwright-report
+/blob-report
+
